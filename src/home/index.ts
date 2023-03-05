@@ -1,4 +1,3 @@
-console.log('code for home');
 window.Webflow ||= [];
 window.Webflow.push(() => {
   /*start of swiper initiation*/
@@ -11,7 +10,7 @@ window.Webflow.push(() => {
         window.Webflow && window.Webflow.destroy();
         window.Webflow && window.Webflow.ready();
         window.Webflow && window.Webflow.require('ix2').init();
-        console.log('section is on view');
+        // console.log('section is on view');
 
         /*Card with custom gradeint mask */
         const cards = document.querySelectorAll('.trade-card-item') as NodeListOf<HTMLElement>;
@@ -19,8 +18,8 @@ window.Webflow.push(() => {
 
         cards.forEach((card, index) => {
           const mask = masks[index];
-          console.log(card, index);
-          console.log(masks[index]);
+          //   console.log(card, index);
+          //   console.log(masks[index]);
 
           card.addEventListener('mousemove', (e) => {
             const rect = card.getBoundingClientRect();

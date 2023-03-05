@@ -23,7 +23,7 @@ creatorItems.forEach((item: Element) => {
     linkElem.href = creatorLink;
   }
 
-  console.log(creatorName);
-  console.log(fullNameElem);
-  console.log(creatorLink);
+  //   console.log(creatorName);
+  //   console.log(fullNameElem);
+  //   console.log(creatorLink);
 });

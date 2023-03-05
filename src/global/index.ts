@@ -1,5 +1,3 @@
-console.log('code for global');
-
 document.addEventListener('DOMContentLoaded', function () {
   // code to run after page has loaded
 
