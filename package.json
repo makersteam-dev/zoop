@@ -1,17 +1,17 @@
 {
-  "name": "@finsweet/developer-starter",
+  "name": "@makersteam/zoop",
   "version": "0.0.0",
-  "description": "Developer starter template for Finsweet projects.",
-  "homepage": "https://github.com/finsweet/developer-starter#readme",
+  "description": "Developer starter template for makersteam projects.",
+  "homepage": "https://github.com/makersteam/developer-starter#readme",
   "license": "ISC",
   "keywords": [],
   "author": {
-    "name": "Finsweet",
-    "url": "https://finsweet.com/"
+    "name": "MakersTeam",
+    "url": "https://makersteam.co/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finsweet/developer-starter.git"
+    "url": "git+https://github.com/makersteam/zoop.git"
   },
   "bugs": {
     "url": "https://github.com/finsweet/developer-starter/issues"
