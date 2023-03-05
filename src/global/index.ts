@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
+window.Webflow ||= [];
+window.Webflow.push(() => {
   // code to run after page has loaded
 
   /* check if navigation-bar exists (to avoid js console errors) */
