@@ -3,7 +3,6 @@ const creatorItems = document.querySelectorAll('.creator-item');
 
 // Loop through each .creator-item element
 creatorItems.forEach((item: Element) => {
-  $(this).find('.profile-link').click();
   // Get the value of the [mt-creator] attribute
   const creatorName = item.getAttribute('mt-creator');
 
